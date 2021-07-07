@@ -14,7 +14,7 @@ Contexto:
 
 @testPositivo
   Cenario: Deve cadastrar um novo usuario com sucesso
- 	  E preencher o campo username "johnatas"
+ 	  E preencher o campo username "johnatasDias"
   	E preencher o campo email "a@a.com"
   	E preencher o campo password "Oicara10"
   	E preencher o campo confirm password "Oicara10"
@@ -32,7 +32,7 @@ Contexto:
    	
 @testNegativo
   Cenario: Nao deve cadastrar usuario existente
-   	E preencher o campo username "johnatas"
+   	E preencher o campo username "johnatasDias"
   	E preencher o campo email "a@a.com"
   	E preencher o campo password "Oicara10"
   	E preencher o campo confirm password "Oicara10"

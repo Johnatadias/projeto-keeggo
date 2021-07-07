@@ -13,14 +13,14 @@ Contexto:
 
 @testPositivo
   Cenario: Deve logar com sucesso
- 	  E preencher o username "johnatas"
+ 	  E preencher o username "johnatasDias"
   	E preencher o password "Oicara10"
   	E clicar no botao entrar
  		Entao usuario e logado com sucesso
    	
 @testNegativo
   Cenario: Nao deve logar usuario nao cadastrado
- 	  E preencher o username "johnata"
+ 	  E preencher o username "johnataDias"
   	E preencher o password "Oicara20"
   	E clicar no botao entrar
  		Entao usuario nao deve ser logado
